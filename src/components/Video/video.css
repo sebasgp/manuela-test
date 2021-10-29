@@ -1,12 +1,28 @@
-.video-container{
-    text-align: center;
-    margin-top: 40px;
-    margin:0 auto
-
+.video-container {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  display: flex; 
 }
 
-video{
-    margin:0 auto;
-    width: 340px;
-    position: relative;
+video {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.control-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.play {
+  width: 30px;
 }

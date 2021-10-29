@@ -1,0 +1,30 @@
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    cursor: pointer;
+}
+
+.nav-container a{
+    color: rgb(0, 0, 0);
+}
+
+.nav-container a:hover{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-container a:first-child{
+    margin-right: 30px;
+}
+
+.header-hr{
+    width: 80%;
+    margin: 4px auto;
+}

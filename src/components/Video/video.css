@@ -1,0 +1,12 @@
+.video-container{
+    text-align: center;
+    margin-top: 40px;
+    margin:0 auto
+
+}
+
+video{
+    margin:0 auto;
+    width: 340px;
+    position: relative;
+}

@@ -9,6 +9,7 @@ video {
   margin: 0 auto;
   cursor: pointer;
   width: 60%;
+  min-width: 320px;
 }
 
 .control-container {

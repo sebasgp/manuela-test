@@ -8,6 +8,7 @@
 video {
   margin: 0 auto;
   cursor: pointer;
+  width: 60%;
 }
 
 .control-container {

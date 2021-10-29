@@ -20,7 +20,7 @@ function Video() {
 
   return (
     <div className="video-container">
-      <video width="320" onClick={handlePlay} ref={videoRef} loop>
+      <video onClick={handlePlay} ref={videoRef} loop>
         <source src={video} />
       </video>
       {playing ? null : (

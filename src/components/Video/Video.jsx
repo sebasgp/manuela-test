@@ -25,7 +25,8 @@ function Video() {
       </video>
       {playing ? null : (
         <div onClick={handlePlay} className="control-container">
-          <img className="play" src={playIcon} alt="" />
+          {/* <img className="play" src={playIcon} alt="" /> */}
+          <div className="triangulo"></div>
         </div>
       )}
     </div>
